@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+    -webkit-user-select:auto;
+}
+body,
+.scroll{
+
+    -webkit-user-select:auto;
+}
+/*客服按钮的样式*/
+#rong-widget-minbtn{
+    width: 5.1rem;
+    height: 5.1rem;
+    background-image: url("../images/service1.png");
+    background-size: 100%;
+    z-index: 20;
+}
+
+#rong-widget-minbtn a{
+    display: none;
+}
+/*聊天窗口的样式*/
+#rong-conversation{
+    left: 0;
+}
+/*窗口顶部*/
+#header{
+    background: red;
+}
+/*发送按钮*/
+.rongcloud-rong-send-btn {
+    background: red;
+}
+
+.topCarousel .topCarouselImg{
+    width: 100%;
+}
+
+div.slider-pager{
+    padding-left: 3.9rem;
+    text-align: left;
+}
+
+.ion-record:before{
+    color: white;
+}
+.slider-pager .slider-pager-page{
+    opacity: 1;
+}
+.slider-pager .slider-pager-page.active .ion-record::before{
+    color: #E60012;
+}

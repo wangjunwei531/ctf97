@@ -1,0 +1,161 @@
+.personal{
+    background-color: #eee;
+}
+.personal .header{
+    width: 100%;
+    height: 10.4rem;
+    display: flex;
+    flex-flow: row nowrap;;
+    justify-content: flex-start;
+    border-bottom: .1rem solid #cacaca;
+    background: #fff;
+}
+
+.personal .headPic{
+    margin: 1.5rem 0 0 1.4rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    background-image: url("../../images/myOrder.png");
+    background-size: 100%;
+}
+
+.personal .headData{
+    margin: 3.5rem 0 0 2.1rem;
+    width: 9rem;
+    height: 4.6rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+
+.personal .headData h4{
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.personal .headData p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.personal .content{
+    padding: 1.25rem 0;
+    width: 100%;
+    height: 7.7rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background: #fff;
+
+}
+
+.personal .content div{
+
+    width: 50%;
+    height: 100%;
+    font-size: 1.4rem;
+    color: #676767;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal .content div+div{
+    border-left:.1rem solid #cacaca;
+}
+.personal .myOrderIcon {
+    margin-bottom: .9rem;
+    width: 2rem;
+    height: 2.6rem;
+    background-image: url("../../images/order.png");
+    background-repeat: no-repeat;
+    background-size: 94%;
+}
+
+.personal .myCollectIcon{
+    margin-bottom: 1.05rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-image: url("../../images/star.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+
+.personal .list{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.personal .item{
+
+    height: 5rem;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.personal .shoppingCarIcon{
+    left: 1.5rem;
+    top: 1.4rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../../images/shoppingCar.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.personal .creditIcon{
+    left: 1.5rem;
+    top: 1.4rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../../images/credit.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.personal .addressIcon{
+    left: 1.5rem;
+    top: 1.2rem;
+    width: 2.2rem;
+    height: 2.4rem;
+    background-image: url("../../images/address.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.personal .payIcon{
+    left: 1.5rem;
+    top: 1.4rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../../images/pay.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.personal .concernIcon{
+    left: 1.5rem;
+    top: 1.4rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../../images/concern.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.personal .item-note{
+    font-size: 1.5rem;
+    color: #999;
+}
+
+
+.personal .ion-ios-arrow-right::before{
+    font-size: 2.5rem;
+    color: #c6c6c6;
+}

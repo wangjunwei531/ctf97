@@ -1,0 +1,77 @@
+.myPoints{
+    background-color: #eee;
+}
+
+.myPoints .header{
+    margin-bottom: 1rem;
+    padding: 0 1.2rem 0 1.3rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+.myPoints .header span{
+    font-size: 1.6rem;
+    color: #ED3743;
+}
+
+.myPoints .header button{
+    width: 5rem;
+    height: 2.3rem;
+    line-height: 100%;
+    border: .1rem solid #ED3743;
+    border-radius: .2rem;
+    font-size: 1.3rem;
+    color: #ED3743;
+    outline: none;
+    background-color: white;
+}
+
+.myPoints .firstLine{
+    padding-left: 1.3rem;
+    width: 100%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: white;
+    font-size: 1.2rem;
+    color: #666;
+
+}
+
+.myPoints .pointsItem{
+    padding:0 1.2rem 0 1.3rem;
+    width: 100%;
+    min-height: 4.3rem;
+    background-color: white;
+    border-top: .1rem solid #bdbdbd;
+}
+
+.myPoints .pointsItem .p1{
+    margin: .9rem 0 .6rem;
+    padding: 0;
+    width: 100%;
+    line-height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #666;
+}
+.myPoints .pointsItem .p1 span{
+    font-size: 1.3rem;
+    color: #EB1E2D;
+}
+
+.myPoints .pointsItem .p2{
+    font-size: 1rem;
+    color: #999;
+}
+
+
+
+

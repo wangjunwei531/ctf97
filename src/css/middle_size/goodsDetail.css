@@ -1,0 +1,233 @@
+.goodsDetail{
+    background-color: #eee;
+}
+.goodsDetail .roundImg{
+    width: 100%;
+    height: 22.9rem;
+    background-color: #4cd964;
+    background: url("../../images/crap.png") no-repeat center;
+    background-size: 100%;
+}
+
+.goodsDetail .textData{
+
+    width: 100%;
+    /*height: 10.6rem;*/
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+
+}
+.goodsDetail .mainPrice{
+    margin-left: 1.1rem;
+}
+.goodsDetail .mainPrice p,
+.goodsDetail .mainPrice h3
+{
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+
+}
+
+.goodsDetail .mainPrice h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.goodsDetail .mainPrice .subTitle{
+    margin-bottom: 1.3rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.goodsDetail .textData .price{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #E80516;
+}
+.goodsDetail .textData .price::first-letter{
+    font-size: 1.1rem;
+}
+
+.goodsDetail .price span{
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    color: #666;
+    text-decoration: line-through;
+
+}
+
+.goodsDetail .textData .others{
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #666;
+
+}
+.goodsDetail .others span+span{
+    margin-left: 1.5rem;
+}
+
+
+.goodsDetail .collection{
+    width: 6rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.goodsDetail .collect{
+    margin-top: 1rem;
+    width: 100%;
+    /*height:;*/
+    font-size: 1.2rem;
+    color: #666;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.goodsDetail .collect img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.goodsDetail .collection>span{
+    margin-bottom: 1.5rem;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #DD434E;
+}
+
+.goodsDetail .item{
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-size: 1.2rem;
+    color: #333;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.goodsDetail .item i::before{
+    font-size: 2.2rem;
+    color: #666;
+}
+
+.goodsDetail .goodsParams{
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.goodsDetail .goodsParams>div{
+    position: relative;
+    padding: 0 1rem;
+    width: 33.3%;
+    height: 3.6rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 3.6rem;
+}
+
+.goodsDetail .goodsParams div~div{
+    border-left: .1rem solid #C3C1C1;
+}
+.goodsDetail .goodsParams .active{
+    color: #E80516;
+}
+.goodsDetail .goodsParams .active::before{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 0;
+    content: '';
+    border-bottom: .2rem solid #E80516;
+}
+
+/*对选项内容的样式进行设置*/
+.goodsDetail .choseCont img{
+    width: 100%;
+}
+
+/*对底部导航进行样式设置*/
+.goodsDetail .detailFoot{
+    padding: 0;
+    height: 5.1rem;
+}
+
+.goodsDetail .myTab{
+    padding-top: .5rem;
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #737373;
+}
+
+.goodsDetail .myTab .homePageIcon{
+    margin-bottom: .3rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background:url("../../images/shomepage.png") no-repeat center;
+    background-size: contain;
+
+}
+
+.goodsDetail .myTab .shoppingCar{
+    margin-bottom: .3rem;
+    width: 2rem;
+    height: 1.8rem;
+    background: url("../../images/shopCar.png") no-repeat center;
+    background-size: contain;
+}
+
+.goodsDetail .buttons{
+    width: calc(100% - 16rem);
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+
+.goodsDetail .buttons div{
+    width: 50%;
+    height: 100%;
+    font-size: 1.1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f27f88;
+}
+
+.goodsDetail .buttons .last-btn{
+    background-color: #e60012;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

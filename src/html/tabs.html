@@ -1,0 +1,43 @@
+<ion-view view-title="tabs" class="m-page">
+    <ion-side-menus delegate-handle="mainPageMenus">
+        <ion-side-menu-content>
+            <ion-tabs class="tabs-icon-top">
+                <ion-tab title="首页" href="#/tabs/home" icon-on="home-on" icon-off="home-off">
+                    <ion-nav-view name="tabs-home">
+
+                    </ion-nav-view>
+                </ion-tab>
+
+                <ion-tab title="积分商城" href="#/tabs/points" icon-on="points-on" icon-off="points-off">
+                    <ion-nav-view name="tabs-points">
+
+                    </ion-nav-view>
+                </ion-tab>
+
+                <ion-tab title="加盟店" href="#/tabs/franchisee" icon-on="franchisee-on" icon-off="franchisee-off">
+                    <ion-nav-view name="tabs-franchisee">
+
+                    </ion-nav-view>
+                </ion-tab>
+
+                <ion-tab title="个人中心" href="#/tabs/personal" icon-on="personal-on" icon-off="personal-off">
+                    <ion-nav-view name="tabs-personal">
+
+                    </ion-nav-view>
+                </ion-tab>
+            </ion-tabs>
+
+        </ion-side-menu-content>
+        <ion-side-menu side="right" class="oneSort">
+            <div class="list">
+                <div class="item firstItem">一级分类</div>
+                <div class="item">全部商品</div>
+                <div class="item">有机产品</div>
+                <div class="item">专利产品</div>
+                <div class="item">资源性产品</div>
+            </div>
+
+        </ion-side-menu>
+    </ion-side-menus>
+
+</ion-view>

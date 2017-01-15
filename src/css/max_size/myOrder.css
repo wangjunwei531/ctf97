@@ -1,0 +1,243 @@
+.my_order{
+    background: #EEE;
+}
+.my_order .nav_list{
+    height: 7rem;
+    font-size: 0;
+    width: 100%;
+    background: white;
+}
+.my_order .nav_list ul{
+    font-size: 2.4rem;
+    padding: .9rem 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.my_order .nav_list ul li{
+    line-height: 5.2rem;
+    height: 5.2rem;
+    position: relative;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+}
+.my_order .nav_list ul li~li{
+    border-left:1px solid #BCBBBB;
+}
+.my_order .nav_list ul li.active{
+    color:#D60101;
+}
+.my_order .nav_list ul li.active::before{
+    width: 10.5rem;
+    bottom: -.9rem;
+    border-bottom:.3rem solid #D60101;
+}
+.my_order .order_list{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    background: white;
+}
+.my_order .order_list .order_num{
+    height: 6rem;
+    line-height: 6rem;
+    padding:0 2.2rem;
+    font-size: 2.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my_order .order_list .order_num span{
+    color: #666666;
+}
+.my_order .order_list .order_num span~span{
+    color: #EA1E2D;
+}
+.my_order .order_item{
+    height: 17.2rem;
+    padding: 0 2.2rem;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-flow: row nowrap;
+    width: 100%;
+    background: #EEE;
+}
+
+.my_order .order_item+.order_item{
+    margin-top: 1rem;
+}
+
+.my_order .order_item .order_text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+/**/
+.my_order .order_item p{
+    width: 37.5rem;
+    line-height: 3rem;
+    font-size: 2.4rem;
+    margin: 2.4rem 0 0 0;
+    color: #333;
+}
+.my_order .order_item .price{
+    margin-top: 2.9rem;
+    /*line-height: 100%;*/
+    display: flex;
+    /*justify-content: center;*/
+    flex-flow: column;
+    align-items: flex-end;
+    color: #333;
+}
+.my_order .order_item .price span{
+    height: 2.6rem;
+    font-size: 2.6rem;
+
+}
+.my_order .order_item .price span~span{
+    height: 2.4rem;
+    font-size: 2.4rem;
+    margin-top: 1.8rem;
+    color: #666;
+
+}
+.my_order .order_item .span_origin{
+    text-decoration: line-through;
+}
+.my_order .order_item img{
+    width: 14rem;
+    height: 14rem;
+    margin: 1.4rem 2.1rem 1.8rem 0;
+}
+
+.my_order .order_total{
+    line-height: 6.9rem;
+    height: 6.9rem;
+    text-align: right;
+    width: 100%;
+    border-bottom: .1rem solid #BEBDBD;
+}
+.my_order .order_total>span{
+    font-size: 2.2rem;
+    margin-right:2.2rem;
+    color: #333;
+}
+.my_order .order_total>span span{
+    font-size: 2.6rem;
+}
+
+.my_order .order_footer{
+    height: 8.6rem;
+    padding-right: 2.3rem;
+    text-align: right;
+    width: 100%;
+    font-size: 0;
+}
+.my_order .order_footer .btn{
+    font-size: 2.4rem;
+    margin: 2rem 0 2rem 2.3rem;
+    border-radius: .4rem;
+    width: 15.6rem;
+    height: 4.6rem;
+    outline: none;
+    border: .1rem solid #999;
+    background: transparent;
+    color: #666;
+}
+.my_order .order_footer .btn.lone{
+    border-color: #EA1E2D;
+    color: #EA1E2D;
+}
+.myOrder.popup-container .popup{
+    width: 61.3rem;
+    height: 35.2rem;
+    border-radius: 1rem;
+    background: white;
+}
+.myOrder.popup-container .popup-buttons{
+    width: 100%;
+    min-height:0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: .1rem solid #ACABAB;
+    padding: .6rem 0;
+    height: 7.2rem;
+
+}
+.myOrder.popup-container .popup-buttons .button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    min-height: 0;
+    border-radius: 0;
+    background: transparent;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.myOrder .popup-buttons .button:last-child{
+    border-left: .1rem solid #ACABAB;
+    color: #E80516;
+}
+
+.myOrder .button.activated{
+    outline: none;
+}
+.myOrder .button:after{
+    display: none;
+}
+.myOrder .popup-head{
+    display: none;
+}
+.myOrder .popup-body{
+    height: 28rem;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.myOrder .popup-body span{
+    font-size: 3rem;
+    margin-top: 14rem;
+    display: inline-block;
+    color: #333;
+}
+.myOrder.popup-container.refund .popup-buttons{
+    border: none;
+}
+
+/**/
+.myOrder.refund .popup-body p{
+    font-size: 3rem;
+    line-height: 9rem;
+}
+.myOrder.refund .popup-body textarea{
+    width: 100%;
+    height: 19rem;
+    font-size: 2.4rem;
+    padding: 1.6rem 2.7rem;
+    position: absolute;
+    bottom: 0;
+    background: #EEE;
+}
+.myOrder.refund .popup-body textarea::-webkit-input-placeholder{
+    font-size: 2.4rem;
+    color: #666;
+}
+
+.myOrder.refund .popup-body div{
+    font-size: 2.4rem;
+    color: #666;
+    position: absolute;
+    bottom: 1rem;
+    right: 2.8rem;
+}
+/**/
+

@@ -1,0 +1,96 @@
+/*修改tabs默认padding默认值*/
+.m-page .tab-nav{
+    padding: 0;
+}
+/*tab选项被选中时，tab的样式*/
+.m-page .tab-item-active{
+    background-color: #e60012;
+    color: white;
+}
+/*选中时图标的样式*/
+.m-page .home-on{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background-size: 100%;
+    background: url("../../images/homeSelect.png") no-repeat ;
+    background-size: 100%;
+}
+
+
+
+.m-page .franchisee-on{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+
+    background: url("../../images/integStoresSelect.png") no-repeat ;
+    background-size: 100%;
+}
+
+.m-page .points-on{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+
+    background: url("../../images/napaStoresSelected.png") no-repeat ;
+    background-size: 100%;
+}
+
+.m-page .personal-on{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background: url("../../images/personSelected.png") no-repeat ;
+    background-size: 100%;
+}
+/*未激活时图标的样式*/
+.m-page .home-off{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background: url("../../images/homepage.png") no-repeat;
+    background-size: 100%;
+}
+
+.m-page .franchisee-off{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background: url("../../images/sintegStore.png") no-repeat ;
+    background-size: 100%;
+}
+
+.m-page .points-off{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background: url("../../images/napaStores.png") no-repeat ;
+    background-size: 100%;
+}
+
+.m-page .personal-off{
+    margin: .8rem auto .5rem;
+    width: 1.7rem;
+    height: 1.9rem;
+    background: url("../../images/person.png") no-repeat ;
+    background-size: 100%;
+}
+
+/*设置一级分类的样式*/
+.oneSort .item{
+    padding:0 1.1rem;
+    height: 3.9rem;
+    line-height: 3.9rem;
+    font-size: 1.5rem;
+    color: #666;
+
+}
+
+.oneSort .firstItem{
+    height: 4.6rem;
+    line-height: 4.6rem;
+    text-align: center;
+    font-size: 1.7rem;
+    background-color: #eee;
+}
